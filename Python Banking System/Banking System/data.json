@@ -1,0 +1,61 @@
+{
+"customer":[
+            {"account_no":1234,
+             "fname":"Adam",
+             "lname":"Smith",
+             "address":{"n":14, "street":"Wilcot Street", "town":"Bath", "postcode":"B5 5RT"},
+             "accounttype":{"accname":"Savings", "interest":5, "overdraft":0 },
+             "balance": 5000.00
+            },
+            {"account_no":1235,
+             "fname":"David",
+             "lname":"White",
+             "address":{"n":60, "street":"Holborn Viaduct", "town":"London", "postcode":"EC1A 2FD"},
+             "accounttype":{"accname":"Savings", "interest":5, "overdraft":0 },
+             "balance": 3200.00
+            },
+            {"account_no":1236,
+             "fname":"Alice",
+             "lname":"Churchil",
+             "address":{"n":5, "street":"Cardigan Street", "town":"Birmingham", "postcode":"B4 7BD"},
+             "accounttype":{"accname":"Certified Deposit", "interest":10, "overdraft":0 },
+             "balance": 18000.00
+            },
+            {"account_no":1237,
+             "fname":"Ali",
+             "lname":"Abdallah",
+             "address":{"n":44, "street":"Churchill Way West", "town":"Basingstoke", "postcode":"RG21 6YR"},
+             "accounttype":{"accname":"Current", "interest":1, "overdraft":1000 },
+             "balance": 40.00
+            }
+        ],
+
+        
+
+"admin":[
+      {
+        "username": "id1188",
+        "fname": "Julian",
+        "lname": "Padget",
+        "password": 1441,
+        "adminRight":true,
+        "address":{"n":12,
+                    "street": "London Road",
+                    "town": "Birmingham",
+                    "postcode": "B95 7TT"
+                } 
+      },
+      {
+        "username": "id3313",
+        "fname": "Cathy",
+        "lname": "Newman",
+        "password": 2442,
+        "adminRight":false,
+        "address":{"n":47,
+                    "street": "Mars Street",
+                    "town": "Newcastle",
+                    "postcode": "NE12 6TZ"
+                } 
+      }
+  ]
+}
