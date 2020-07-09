@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/master.css">
+    <link rel="stylesheet" type="text/css" href="styles/forms.css">
+     <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel=icon href=images/banana-logo-small.png sizes="16x16" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--[if lt IE 9]> <script src="scripts/html5shiv.js"> </script> <![endif] -->
+<!--
+  Author:        Daniel Rimaru 19134702
+  Organisation:  Birmingham City University
+  Copyright:     Copyright 2019 
+-->
+    </head>
+    
+<body>
+<div id="wrapper">
+	<header class="header">
+		<a href="index.html" id="logo"></a>
+
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="recipes.html">Recipes</a></li>
+				<li><a href="benefits.html">Benefits</a></li>
+				<li><a href="production.html">Production</a></li>
+				<li><a href="contact.html" class="current">Contact</a></li>
+			</ul>
+		</nav>
+    </header>
+     <div class="banner-image">
+            <div class="box1">
+                <div class="inner-box1">
+                    <p>Contact</p>
+                </div>  
+            </div>
+            
+        </div>
+    <div class="content">
+        <div class="formcol3">
+            <form action="contact-submit.html" method="post">
+                <!-- Name -->
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="name">Name: </label>    
+                    </div>
+		            <div class="form-input">
+		                <input type="text" name="name" id="name">
+                    </div>
+                </div>
+                <!-- Email -->   
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="email">Email: </label>    
+                    </div>
+		            <div class="form-input">
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <!--select -->   
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="location">Location: </label>    
+                    </div>
+		            <div class="form-input">
+		                  <select name="location" id="location">
+                            <option>England</option>
+                            <option>Wales</option>
+                            <option>Scotland</option>
+                         </select>
+                    </div>
+                </div>
+                <!-- TextArea --> 
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="message">Message: </label>    
+                    </div>
+		            <div class="form-input">
+		                  <textarea id="message" name="message"></textarea>
+                    </div>
+                </div>
+                <!--Submit -->
+                <div class="form-row">
+                    <input type="submit" value="Send">
+                </div>   
+            </form>
+        </div>
+    </div> <!--close content div--> 
+    <div class="contactcol2">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=birmingham%20city%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer">
+            <a href="references.html">References </a>Bananiel.Com &copy; copyright 2019
+        </footer>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+@import url("mainstyle.css");
+/*-------------------------*/
+/*-------MEDIA QUERY-------*/
+/*-------------------------*/
+@media only screen and (max-width : 600px) {
+	header {
+		position: fixed;
+	}
+	#menu-icon {
+		display:inline-block;
+	}
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background:#5C2E00;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+    .column {
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:5%;
+        margin-right:5%;
+        width: 90%;
+    }
+    .box1 {
+        margin-left:0;
+        float: left;
+        width: 100%;
+        margin-top:20%;
+    }
+    .box2 {
+        float: left;
+        width: 100%;
+        margin-top:20%;
+        margin-right:0;
+    }
+    .p4{
+    display:none;
+}
+    .p5{
+    display:none;
+}
+    /*--------------------------------------------------------------------------------*/
+/*CONTACT*/
+    .formcol3 {
+    padding:3%;
+    float:left;
+    width:100%;
+    font-family: sans-serif;
+    background-color: #FF7F00;
+    font-size: 18px;
+    border: 5px solid #FFE100;
+    clear: both;
+}
+    .contactcol2 {
+    float: left;
+    width:100%;
+    margin-bottom:10px;
+}
+    
+    .benefitscol1{
+   width:100%;     
+}
+    .benefitsimgs{
+   width:100%;     
+}
+    .productioncol1{
+    width:100%;
+    margin:auto;
+}
+    .productioncol2{
+    width:100%;
+    margin:auto;
+}
+}

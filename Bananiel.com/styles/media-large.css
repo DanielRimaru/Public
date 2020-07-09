@@ -1,0 +1,25 @@
+@import url("mainstyle.css");
+h1 {font-size: 300%;}
+h2 {font-size: 200%;}
+p{font-size:130%;}
+nav li{font-size: 240%;}
+small{font-size:75%}
+#wrapper{
+    margin: auto;
+}
+.p5{
+    display:block;
+    margin:auto;
+}
+.productioncol2 img{
+    max-height: 300px;
+    margin:auto;
+}
+.p6{
+    display:none;
+    margin:auto;
+}
+.benefitsimgs img{
+    max-height: 800px;
+    max-width:547px;
+}
